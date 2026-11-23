@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "repository": "ReadbytheBeach/my_codex",
+  "id_prefix": "CDX",
+  "document_globs": [
+    "notes/**/*.md",
+    "docs/**/*.md"
+  ],
+  "primary_language": "zh-CN",
+  "updated_on": "2026-11-23",
+  "categories": [
+    {
+      "id": "topics",
+      "title_zh": "主题与笔记",
+      "title_en": "Topics and Notes"
+    },
+    {
+      "id": "workflows",
+      "title_zh": "操作与工作流",
+      "title_en": "Guides and Workflows"
+    },
+    {
+      "id": "projects",
+      "title_zh": "设计与工作记录",
+      "title_en": "Designs and Work Records"
+    }
+  ],
+  "kinds": {
+    "note": {
+      "title_zh": "主题笔记",
+      "title_en": "Topic note"
+    },
+    "operation_guide": {
+      "title_zh": "操作指南",
+      "title_en": "Operation guide"
+    },
+    "design_proposal": {
+      "title_zh": "设计方案",
+      "title_en": "Design proposal"
+    },
+    "experiment_report": {
+      "title_zh": "实验记录",
+      "title_en": "Experiment report"
+    }
+  },
+  "evidence_tags": {
+    "FACT": {
+      "title_zh": "来源事实",
+      "description_zh": "可核查的文档或代码事实，不自动表示已运行。"
+    },
+    "AUTHOR_REPORT": {
+      "title_zh": "外部报告",
+      "description_zh": "原作者或外部评测方报告的结果，保留来源与条件。"
+    },
+    "AUTHOR_HYPOTHESIS": {
+      "title_zh": "作者假说",
+      "description_zh": "原作者提出但未同等验证的假说。"
+    },
+    "DISCUSSION": {
+      "title_zh": "分析推断",
+      "description_zh": "解释、推断或类比。"
+    },
+    "PROPOSAL": {
+      "title_zh": "设计建议",
+      "description_zh": "尚待实施或验证的方案。"
+    },
+    "LOCAL_RESULT": {
+      "title_zh": "本地记录",
+      "description_zh": "实际记录的本地结果，保留环境和范围。"
+    },
+    "USER_CONTEXT": {
+      "title_zh": "用户前提",
+      "description_zh": "用户提供的应用条件。"
+    }
+  },
+  "reading_routes": [],
+  "documents": []
+}
